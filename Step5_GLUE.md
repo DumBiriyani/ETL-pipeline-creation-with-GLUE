@@ -34,7 +34,7 @@ An AWS Glue job encapsulates a script that connects to source data, processes it
 
 ## Implementation Steps
 
-1. Go to [AWS Glue Console](https://us-east-1.console.aws.amazon.com/glue/home?region=us-east-1#/v2/home)
+1. Go to [AWS Glue Console](https://us-east-1.console.aws.amazon.com/glue/home?region=us-east-1#/v2/home).
 2. We start by creating Connections to our data stores: S3 and Redshift.
     * Go to Connection in the left navigation pane. This will open up a new new window for Glue Studio.
     * Under Connections, click on Create connection.
