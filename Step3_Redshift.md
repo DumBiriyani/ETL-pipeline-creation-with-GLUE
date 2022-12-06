@@ -31,7 +31,7 @@ Redshift utilizes an interesting strategy to expedite query running time. After 
 4. Under Database Configurations, give a username and password.
 5. Under Associated IAM Roles, click on Manage IAM Roles and then click on Create IAM role. Select Any S3 bucket in the pop up and click on Create IAM role as default.
 6. Click Create cluster.
-7. Now run the SQL queries in [this file](Redshift_Queries.sql) for creating the database, schema and required table.
+7. Now run the SQL queries in [this file](Redshift_Queries.sql) in Query Editor for creating the database, schema and required table. Make sure to change database after creating the same to create schema and table in the newly craeted database, and not the default dev database of Redshift.
 
 *Sources:*  
 https://www.talend.com/resources/amazon-redshift/  
