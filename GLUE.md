@@ -7,9 +7,9 @@ Users can discover and connect to over 70 diverse data sources, manage your data
 and visually create, run, and monitor ETL pipelines to load data into your data lakes.
 
 **Key components of GLUE:**
-1. GLUE Data Catalog
-2. GLUE Crawler
-3. GLUE Job
+* GLUE Data Catalog
+* GLUE Crawler
+* GLUE Job
 
 ## AWS GLUE Data Catalog
 
