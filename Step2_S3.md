@@ -4,7 +4,7 @@ Amazon Simple Storage Service (Amazon S3) is an object storage service offering 
 
 Amazon S3 is an object storage service that stores data as objects within buckets. An object is a file and any metadata that describes the file. A bucket is a container for objects.
 
-## Implementation steps
+### Implementation steps
 
 We follow the following steps to upload data from S3 for this use case:
 
@@ -19,6 +19,6 @@ We follow the following steps to upload data from S3 for this use case:
 9. There are multiple ways to upload data in this folder. For this project, we first manually downloaded a single parquet file for the category Apparel from the S3 bucket [amazon-reviws-pdf](https://s3.console.aws.amazon.com/s3/buckets/amazon-reviews-pds?region=us-east-1&tab=objects) on our local machine. Then we upload the same in our S3 folder using the Upload file button.
 10. We now have our raw data on S3.
 
-References: 
+**References**
 1. https://en.wikipedia.org/wiki/Amazon_S3
 2. https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html
