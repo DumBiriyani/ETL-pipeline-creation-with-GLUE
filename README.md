@@ -38,4 +38,5 @@ Link: https://s3.console.aws.amazon.com/s3/buckets/amazon-reviews-pds?region=us-
 6. Amazon Comprehend
 
 **AWS Architecture**
+
 ![plot](Images/Architecture.png)
