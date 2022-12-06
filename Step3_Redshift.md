@@ -25,7 +25,7 @@ Redshift utilizes an interesting strategy to expedite query running time. After 
     
 ## Implementation steps
 
-1. Sign into AWS account using admin user credentials and go to [Redshift](https://us-east-1.console.aws.amazon.com/redshiftv2/home?region=us-east-1#landing)
+1. Sign into AWS account using admin user credentials and go to [Redshift](https://us-east-1.console.aws.amazon.com/redshiftv2/home?region=us-east-1#landing).
 2. Click on Create cluster.
 3. Give this cluster a name. We used the default one in our implementation 'redshift-cluster-1'.
 4. Under Database Configurations, give a username and password.
