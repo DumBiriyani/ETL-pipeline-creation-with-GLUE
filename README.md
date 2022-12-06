@@ -48,8 +48,8 @@ To replicate, follow the steps in order mentioned in .md filenames.
 
 ![plot](Images/Architecture.png)
 
-**Flyer and Project Video Link**
+**Flyer, PPT and Project Video Link**
 
 [Flyer Link](Images/Flyer.pdf)
-
+[PPT Link](https://docs.google.com/presentation/d/1iY0Q9V4hJqRbCnPJgCE8HwLcDXeXjKx8/edit?usp=sharing&ouid=112117916252631522217&rtpof=true&sd=true)
 [Video Link]
