@@ -4,7 +4,7 @@ Amazon Redshift is a fast, fully managed, petabyte-scale data warehouse service 
 
 Redshift uses SQL to analyze structured and semi-structured data across data warehouses, operational databases, and data lakes, using AWS-designed hardware and machine learning to deliver the best price performance at any scale. It delivers incredibly fast performance using two key architectural elements: columnar data storage and massively parallel processing design.
 
-![plot](Images/Redshift Image.png)
+![plot](Images/Redshift_Image.png)
 
 ## Advantages Over Traditional Data Warehouses
 
