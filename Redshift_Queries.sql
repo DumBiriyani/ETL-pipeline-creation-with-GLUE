@@ -1,5 +1,7 @@
 CREATE DATABASE reviews;
 
+-- manually change database to reviews
+
 CREATE SCHEMA data;
 
 CREATE TABLE data.amazon_reviews_parquet(
