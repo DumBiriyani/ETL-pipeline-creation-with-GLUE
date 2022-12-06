@@ -8,7 +8,7 @@ Redshift uses SQL to analyze structured and semi-structured data across data war
 
 * Columnar Data Storage:
 
-** Traditional relational databases use row-based storage. This is ideal for use cases that involve querying and updating specific rows, such as in CRM and ERP applications. However, since indexes take up bandwidth and resources on their own and many contribute to slowing down database performance, database architects need to carefully evaluate which columns may be queried more often and create indexes accordingly. However, Redshift groups similar data types, allowing for better compression. Since less memory is utilized for loading compressed data, there is free memory available for analysis, improving query performance.
+Traditional relational databases use row-based storage. This is ideal for use cases that involve querying and updating specific rows, such as in CRM and ERP applications. However, since indexes take up bandwidth and resources on their own and many contribute to slowing down database performance, database architects need to carefully evaluate which columns may be queried more often and create indexes accordingly. However, Redshift groups similar data types, allowing for better compression. Since less memory is utilized for loading compressed data, there is free memory available for analysis, improving query performance.
 
 * Massively Parallel Processing (MPP):
 
