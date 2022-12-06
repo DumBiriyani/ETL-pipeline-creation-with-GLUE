@@ -9,4 +9,4 @@ AWS Identity and Access Management (IAM) is a web service that helps you securel
 Below is the process used to create roles and policies required for this project. 
 
 1. Create an IAM User:
-    a. s
+2.  sdsd
