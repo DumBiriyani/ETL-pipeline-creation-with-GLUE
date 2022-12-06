@@ -6,7 +6,7 @@ To run your extract, transform, and load (ETL) jobs, AWS Glue must be able to ac
 
 The following diagram shows how AWS Glue can use a VPC endpoint to access Amazon S3.
 
-![plot](Images/VPC endpoint for S3.png)
+![plot](Images/VPC_endpoint_for_S3.png)
 
 ## Implementation Steps
 
