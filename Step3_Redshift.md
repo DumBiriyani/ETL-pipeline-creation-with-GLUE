@@ -28,6 +28,15 @@ Redshift uses SQL to analyze structured and semi-structured data across data war
 
     Redshift utilizes an interesting strategy to expedite query running time. After compiling the query once, the platform distributes this compiled code across the cluster. When the leader node distributes data across compute nodes, it also sends the compiled code, removing any additional processing overhead.
     
+## Implementation steps
+
+1. Sign into AWS account using admin user credentials and go to [Redshift](https://us-east-1.console.aws.amazon.com/redshiftv2/home?region=us-east-1#landing)
+2. Click on Create cluster.
+3. Give this cluster a name. We used the default one in our implementation 'redshift-cluster-1'.
+4. Under Database Configurations, give a username and password.
+5. Under Associated IAM Roles, click on Manage IAM Roles and then click on Create IAM role. Select Any S3 bucket in the pop up and click on Create IAM role as default.
+6. Click Create cluster.
+7. Now run the SQL queries in [this file](Redshift_Queries.sql) for creating the database, schema and required table.
 
 *Sources:*  
 https://www.talend.com/resources/amazon-redshift/  
