@@ -59,6 +59,14 @@ An AWS Glue job encapsulates a script that connects to source data, processes it
     * Select Target database (can be the one used above or create a new database).
     * Click on Next and Create crawler.
     * Select the crawler and run it. A table should be created in Glue Data Catalog. Go to tables to check.
+4. Creation of Glue job
+    * Click on Jobs on Glue home page.
+    * In Create job select Visual with a source and target. In source both source and target select AWS Glue Data Catalog and click on Create.
+    * An untitled job will be created. In Visual tab, click on Data Source node. On the right side, select the database and table created by the S3 crawler under Data source properties - Data Catalog.
+    * Do the same for target node, but for Redshift table.
+    * Now go to Job details tab. Give the job a name. Select the AWS Glue Service role under IAM role. In Advanced properties, under connections, check if there is Redshift connection created earlier.
+    * Click on Save on right side of the page.
+    * Click on Run. The runs can be monitored in Runs tab of the job.
 
 *References:*  
 https://docs.aws.amazon.com/glue/latest/dg/catalog-and-crawler.html  
