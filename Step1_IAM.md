@@ -31,3 +31,7 @@ AWS Identity and Access Management (IAM) is a web service that helps you securel
 6. On the Attach permissions policy page, choose the AWS managed policy AWSGlueServiceRole for general AWS Glue permissions, the AWS managed policy AmazonS3FullAccess for access to Amazon S3 resources, AmazonRedshiftFullAccess for Redshift access and AWSGlueConsoleFullAccess for glue console access. Then choose Next: Review.
 7. For Role name, enter AWSGlueServiceRole-AWSGlueServiceRoleDefault. 
 8. Choose Create Role.
+
+**References**
+1. https://aws.amazon.com/iam/?nc=sn&loc=1
+2. https://docs.aws.amazon.com/glue/latest/dg/create-an-iam-role.html
