@@ -1,5 +1,9 @@
 # ETL-pipeline-creation-with-Glue
 
+This project repository is created in partial fulfillment of the requirements for the Big Data Analytics course offered by the Master of Science in Business Analytics program at the Carlson School of Management, University of Minnesota.
+
+# Introduction to ETL and AWS Glue
+
 Automation is a key component in synthesizing end-to-end machine learning products. Data preparation is the first and the most vital step in analytics to obtain quality results. Data Analytics and Machine Learning work-streams rely on ETL for their basis. ETL cleanses and organizes data using a set of business rules to meet particular business intelligence requirements while enhancing back-end operations and end-user experience. 
  
 AWS Glue is a serverless data integration service that makes it easier to discover, prepare, move, and integrate data from multiple sources for analytics, machine learning, and application development. Users can discover and connect to over 70 diverse data sources, manage data in a centralized data catalog, and visually create, run, and monitor ETL pipelines to load data into data lakes. In this project, we utilize Amazon's customer reviews data in tandem with AWS Redshift to demonstrate the use of AWS Glue.
@@ -29,7 +33,10 @@ Link: https://s3.console.aws.amazon.com/s3/buckets/amazon-reviews-pds?region=us-
 3. Use a Glue job to load data in Redshift
 4. Use AWS Lambda functions and Amazon Comprehend to analyze the sentiment and entities in the reviews.
 
+To replicate, follow the steps in order mentioned in .md filenames.
+
 ## Tools and technologies used
+
 1. Amazon S3
 2. AWS Glue
 3. Amazon Redshift
@@ -40,3 +47,9 @@ Link: https://s3.console.aws.amazon.com/s3/buckets/amazon-reviews-pds?region=us-
 **AWS Architecture**
 
 ![plot](Images/Architecture.png)
+
+**Flyer and Project Video Link**
+
+[Flyer Link](Images/Flyer.pdf)
+
+[Video Link]
