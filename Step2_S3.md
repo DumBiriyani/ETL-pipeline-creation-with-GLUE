@@ -12,7 +12,7 @@ We follow the following steps to upload data from S3 for this use case:
 2. Open [S3 console](https://s3.console.aws.amazon.com/s3/buckets?region=us-east-1).
 3. Go to Buckets in the left pane.
 4. Click on the 'Create bucket' button on right.
-5. Give bucket name 'big-data-trends-mkt-team-10-2023'.
+5. Give a bucket name, this name should be unique across all AWS, we have used 'big-data-trends-mkt-team-10-2023'.
 6. Keep all default settings and click on 'Create bucket'.
 7. Click on Buckets in the navigation pane again. There is a bucket created with the name above. Click on the name for this bucket.
 8. Now we create a folder in the bucket to store the data. Click on create folder, and give the name 'input'. Keep all settings default for the folder and proceed. In this folder, create a folder named 'parquet'.
