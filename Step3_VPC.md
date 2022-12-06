@@ -12,11 +12,11 @@ The following diagram shows how AWS Glue can use a VPC endpoint to access Amazon
 
 When you start using Amazon VPC, you have a default VPC in each AWS Region. A default VPC comes with a public subnet in each Availability Zone, an internet gateway, and settings to enable DNS resolution. We use the same in this project.
 
-1. We will first set up access for Amazon S3. *A gateway endpoint is available only in the Region where you created it. Be sure to create your gateway endpoint in the same Region as your S3 buckets.
+1. We will first set up access for Amazon S3. 
     * Sign in to the AWS Management Console and open the [Amazon VPC console](https://console.aws.amazon.com/vpc/).
     * In the left navigation pane, choose Endpoints.
     * For Service category, choose AWS services.
-    * For Services, add the filter Type: Gateway and select com.amazonaws.region.s3.
+    * For Services, add the filter Type: Gateway and select com.amazonaws.region.s3. A gateway endpoint is available only in the Region where you created it. Be sure to create your gateway endpoint in the same Region as your S3 buckets.
     * For VPC, select the VPC in which to create the endpoint.
     * For Route tables, select the route tables to be used by the endpoint. We automatically add a route that points traffic destined for the service to the endpoint network interface.
     * For Policy, select Full access to allow all operations by all principals on all resources over the VPC endpoint. Otherwise, select Custom to attach a VPC endpoint policy that controls the permissions that principals have to perform actions on resources over the VPC endpoint.
