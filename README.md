@@ -54,4 +54,4 @@ To replicate, follow the steps in order mentioned in .md filenames.
 
 [PPT Link](https://docs.google.com/presentation/d/1iY0Q9V4hJqRbCnPJgCE8HwLcDXeXjKx8/edit?usp=sharing&ouid=112117916252631522217&rtpof=true&sd=true)
 
-[Video Link]
+[Video Link](https://drive.google.com/drive/folders/15BsFyoAuZS77zKKbfkOz3hyFjv7asbkg?usp=share_link)
